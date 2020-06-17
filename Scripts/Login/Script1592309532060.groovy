@@ -31,5 +31,3 @@ WebUI.verifyElementPresent(findTestObject('Login/Page_Adminmart Template - The U
 
 WebUI.comment('Login successfully')
 
-WebUI.closeBrowser()
-
