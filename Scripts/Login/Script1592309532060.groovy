@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 WebUI.openBrowser('http://report.tesbo.io:443/loginPage')
 
