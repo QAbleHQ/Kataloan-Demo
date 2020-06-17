@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 WebUI.openBrowser('http://report.tesbo.io:443/loginPage')
 
@@ -30,4 +31,6 @@ WebUI.waitForElementPresent(findTestObject('Login/Page_Adminmart Template - The 
 WebUI.verifyElementPresent(findTestObject('Login/Page_Adminmart Template - The Ultimate Mult_15046d/span_Demo'), 0)
 
 WebUI.comment('Login successfully')
+
+WebUI.closeBrowser()
 
