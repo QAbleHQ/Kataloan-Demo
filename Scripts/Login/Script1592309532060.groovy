@@ -27,8 +27,7 @@ WebUI.click(findTestObject('Object Repository/Login/Page_Adminmart Template - Th
 
 WebUI.waitForElementPresent(findTestObject('Login/Page_Adminmart Template - The Ultimate Mult_15046d/span_Demo'), 20)
 
-WebUI.verifyElementText(findTestObject('Login/Page_Adminmart Template - The Ultimate Mult_15046d/Dashboard_Title/h4_Welcome to the Tesbo world'), 
-    'Welcome to the Tesbo world')
+WebUI.verifyElementPresent(findTestObject('Login/Page_Adminmart Template - The Ultimate Mult_15046d/span_Demo'), 0)
 
 WebUI.comment('Login successfully')
 
